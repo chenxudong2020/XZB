@@ -3,7 +3,7 @@
 
 
 
-DESTDIR=/opt/rt-n56u
+DESTDIR=/opt/XZB
 # echo "--------------开始复制默认配置文件----------"
 # \cp -f ../public/defaults.h ${DESTDIR}/trunk/user/shared/defaults.h
 #  echo "--------------开始复制默认配置文件结束----------"

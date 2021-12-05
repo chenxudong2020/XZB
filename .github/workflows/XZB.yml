@@ -60,6 +60,7 @@ jobs:
         mkdir ${WORK_PATH}/images/
     - name: Clear And Build            # 5.清理构建树并开始构建
       run: |
+        cp -f $WORK_PATH/trunk/configs/templates/XZB.config .config  # 拷贝模板到 .config
         cd $WORK_PATH/trunk
           cp -f configs/templates/$t_item.config .config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_CURL/d' .config
